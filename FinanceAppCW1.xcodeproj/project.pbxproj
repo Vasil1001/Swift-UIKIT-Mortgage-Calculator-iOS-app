@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E90B080E27C3D37900B41401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90B080D27C3D37900B41401 /* AppDelegate.swift */; };
+		E90B081027C3D37900B41401 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90B080F27C3D37900B41401 /* SceneDelegate.swift */; };
+		E90B081527C3D37900B41401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90B081327C3D37900B41401 /* Main.storyboard */; };
+		E90B081727C3D37A00B41401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90B081627C3D37A00B41401 /* Assets.xcassets */; };
+		E90B081A27C3D37A00B41401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90B081827C3D37A00B41401 /* LaunchScreen.storyboard */; };
+		E9AD58F927D63283009EB6F5 /* CompoundSavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD58F827D63283009EB6F5 /* CompoundSavingsViewController.swift */; };
+		E9AD58FB27D632E7009EB6F5 /* MortgageLoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD58FA27D632E7009EB6F5 /* MortgageLoanViewController.swift */; };
+		E9AD58FD27D6331A009EB6F5 /* SimpleSavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD58FC27D6331A009EB6F5 /* SimpleSavingsViewController.swift */; };
+		E9AD58FF27D63CA8009EB6F5 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD58FE27D63CA8009EB6F5 /* HelpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E90B080A27C3D37900B41401 /* FinanceAppCW1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceAppCW1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90B080D27C3D37900B41401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E90B080F27C3D37900B41401 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E90B081427C3D37900B41401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E90B081627C3D37A00B41401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E90B081927C3D37A00B41401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E90B081B27C3D37A00B41401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AD58F827D63283009EB6F5 /* CompoundSavingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundSavingsViewController.swift; sourceTree = "<group>"; };
+		E9AD58FA27D632E7009EB6F5 /* MortgageLoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageLoanViewController.swift; sourceTree = "<group>"; };
+		E9AD58FC27D6331A009EB6F5 /* SimpleSavingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSavingsViewController.swift; sourceTree = "<group>"; };
+		E9AD58FE27D63CA8009EB6F5 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90B080727C3D37900B41401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E90B080127C3D37900B41401 = {
+			isa = PBXGroup;
+			children = (
+				E90B080C27C3D37900B41401 /* Week5 */,
+				E90B080B27C3D37900B41401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E90B080B27C3D37900B41401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90B080A27C3D37900B41401 /* FinanceAppCW1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E90B080C27C3D37900B41401 /* Week5 */ = {
+			isa = PBXGroup;
+			children = (
+				E90B080D27C3D37900B41401 /* AppDelegate.swift */,
+				E9AD58F527D629F4009EB6F5 /* Controllers */,
+				E90B080F27C3D37900B41401 /* SceneDelegate.swift */,
+				E90B081327C3D37900B41401 /* Main.storyboard */,
+				E90B081627C3D37A00B41401 /* Assets.xcassets */,
+				E90B081827C3D37A00B41401 /* LaunchScreen.storyboard */,
+				E90B081B27C3D37A00B41401 /* Info.plist */,
+			);
+			path = Week5;
+			sourceTree = "<group>";
+		};
+		E9AD58F527D629F4009EB6F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD58FA27D632E7009EB6F5 /* MortgageLoanViewController.swift */,
+				E9AD58F827D63283009EB6F5 /* CompoundSavingsViewController.swift */,
+				E9AD58FC27D6331A009EB6F5 /* SimpleSavingsViewController.swift */,
+				E9AD58FE27D63CA8009EB6F5 /* HelpViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90B080927C3D37900B41401 /* FinanceAppCW1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90B081E27C3D37A00B41401 /* Build configuration list for PBXNativeTarget "FinanceAppCW1" */;
+			buildPhases = (
+				E90B080627C3D37900B41401 /* Sources */,
+				E90B080727C3D37900B41401 /* Frameworks */,
+				E90B080827C3D37900B41401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceAppCW1;
+			productName = Week5;
+			productReference = E90B080A27C3D37900B41401 /* FinanceAppCW1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90B080227C3D37900B41401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E90B080927C3D37900B41401 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E90B080527C3D37900B41401 /* Build configuration list for PBXProject "FinanceAppCW1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E90B080127C3D37900B41401;
+			productRefGroup = E90B080B27C3D37900B41401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90B080927C3D37900B41401 /* FinanceAppCW1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90B080827C3D37900B41401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90B081A27C3D37A00B41401 /* LaunchScreen.storyboard in Resources */,
+				E90B081727C3D37A00B41401 /* Assets.xcassets in Resources */,
+				E90B081527C3D37900B41401 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90B080627C3D37900B41401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AD58F927D63283009EB6F5 /* CompoundSavingsViewController.swift in Sources */,
+				E9AD58FF27D63CA8009EB6F5 /* HelpViewController.swift in Sources */,
+				E9AD58FB27D632E7009EB6F5 /* MortgageLoanViewController.swift in Sources */,
+				E9AD58FD27D6331A009EB6F5 /* SimpleSavingsViewController.swift in Sources */,
+				E90B080E27C3D37900B41401 /* AppDelegate.swift in Sources */,
+				E90B081027C3D37900B41401 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E90B081327C3D37900B41401 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90B081427C3D37900B41401 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E90B081827C3D37A00B41401 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90B081927C3D37A00B41401 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E90B081C27C3D37A00B41401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E90B081D27C3D37A00B41401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90B081F27C3D37A00B41401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2P6DXXTXAT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Week5/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FinanceAppCW1;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Week5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E90B082027C3D37A00B41401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2P6DXXTXAT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Week5/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FinanceAppCW1;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Week5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90B080527C3D37900B41401 /* Build configuration list for PBXProject "FinanceAppCW1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90B081C27C3D37A00B41401 /* Debug */,
+				E90B081D27C3D37A00B41401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90B081E27C3D37A00B41401 /* Build configuration list for PBXNativeTarget "FinanceAppCW1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90B081F27C3D37A00B41401 /* Debug */,
+				E90B082027C3D37A00B41401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90B080227C3D37900B41401 /* Project object */;
+}
