@@ -1,8 +1,17 @@
 # Swift-UIKIT-Mortgage-Calculator-iOS-app <a name="readme-top"></a>
 A mortgage calculator app for iOS written in Swift + UIKIT. Created as part of the mobile development iOS module at Westminster University.
 
-#### Built With Swift + UIKIT framework
 [![Swift][Swift.com]][Swift-url] [![Xcode][Xcode.com]][Xcode-url] 
+
+<!-- Technologies Used -->
+<details>
+  <summary>Technologies Used</summary>
+  <ol>
+    <li>Swift</li>
+    <li>Swift UIKIT Framework</li>
+    <li>Xcode 13 (iOS Target 15.0+)</li>
+  </ol>
+</details>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -11,9 +20,8 @@ A mortgage calculator app for iOS written in Swift + UIKIT. Created as part of t
     <li><a href="#general-info">General Info</a></li>
     <li><a href="#app-screenshots">App Screenshots</a></li>
     <li><a href="#setup">Setup</a></li>
-    <li><a href="#project-status">Project Status</a></li>
     <li><a href="#usage">Usage</a></li>
-     <li><a href="#project-status">Status</a></li>
+    <li><a href="#project-status">Status</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
